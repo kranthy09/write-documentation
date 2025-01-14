@@ -2,6 +2,9 @@
 ### Requirements:
 1. GitHub Account
 2. DockerHub Account.
+3. Setup git locally.
+4. Install Docker locally.
+https://docs.docker.com/desktop/features/wsl/
 
 ## Create GitHub repo:
 1. Open Github Account
@@ -22,4 +25,12 @@
 4. Create "DOCKERHUB_USER" as key and "<docker_username>" as value.
 5. Create "DOCKERHUB_SECRET_TOKEN" as key and "above generated key".
 6. Save the Above Secrets to pull images from docker hub as DOCKERHUB_USER.
+# Create Project
+1. Create "requirements.txt"
+2. Create "Dockerfile" in Root of the project.
+3. Create ".dockerignore" in Root of the project.
+## Build Image
+1. docker build .
+
+
 
