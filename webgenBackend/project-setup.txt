@@ -4,4 +4,22 @@
 2. DockerHub Account.
 
 ## Create GitHub repo:
-1. 
+1. Open Github Account
+2. Create New Repository, by adding ReadMe.md File
+3. Take the git clone <link> and open Local Terminal
+## Create Project (locally)
+1. Open Terminal and clone the created repo from above.
+2. <project_folder> should see in the cmd "ls"
+## Open DockerHub
+1. Open DOckerHub account
+2. Click on "Account Settings"
+3. In "Security", Click on "Access Token"
+4. Generate New Token for the "webgenBackend".
+## Add Secrets to Github Repository
+1. Open Repository and click on "Settings:
+2. Under "Secrets" Click on "Actions"
+3. Create "New Repository Secret"
+4. Create "DOCKERHUB_USER" as key and "<docker_username>" as value.
+5. Create "DOCKERHUB_SECRET_TOKEN" as key and "above generated key".
+6. Save the Above Secrets to pull images from docker hub as DOCKERHUB_USER.
+
