@@ -1,1 +1,4 @@
 clerk account management
+
+get the access token from provider for an user in backend using clerk backend JS SDK.
+https://clerk.com/docs/authentication/social-connections/oauth#get-an-o-auth-access-token-for-a-social-provider
